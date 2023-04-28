@@ -1,0 +1,65 @@
+body{
+    background-color: whitesmoke;
+    width: 80vw;
+    margin-left: 10rem;
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.NavBar{
+    width: 100%;
+    background-color: skyblue;
+}
+
+ul{
+    display: flex;
+    flex: column;
+    list-style: none;
+}
+
+li{
+    margin: 1rem;
+    color: white;
+}
+
+.main-body{
+    display: flex;
+    
+}
+
+.aside-left{
+    width: 70%;
+    margin: 1rem;
+    position: left
+}
+
+.aside-right{
+    width: 30%;
+    padding: 1rem;
+    margin: 0;
+    position: right;
+}
+
+.contenedor-left{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.contenedor-right{
+    margin-top: 0;
+    padding: 1rem;
+    background-color: orange;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
